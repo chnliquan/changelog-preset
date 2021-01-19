@@ -1,0 +1,31 @@
+{
+  "name": "@eljs/changelog-preset",
+  "version": "0.0.1",
+  "description": "conventional-changelog preset",
+  "files": [
+    "conventional-changelog.js",
+    "conventional-recommended-bump.js",
+    "index.js",
+    "parser-opts.js",
+    "writer-opts.js",
+    "templates"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "compare-func": "^2.0.0",
+    "q": "^1.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chnliquan/changelog-preset"
+  },
+  "keywords": [
+    "conventional-changelog",
+    "preset"
+  ],
+  "author": "liquan",
+  "engines": {
+    "node": ">=10"
+  },
+  "license": "MIT"
+}
